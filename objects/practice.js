@@ -16,7 +16,7 @@
 
 let me = {
   name: "Veronica",
-  age = 23
+  age: 23,
 }
 
 alert(me.name);
@@ -42,13 +42,16 @@ let favoriteThings = {
   and then another key named 'brand' with the value being your favorite brand.
 */
 
+favoriteThings.car = "BMW";
+favoriteThings.brand = "Paleo";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -60,13 +63,12 @@ let favoriteThings = {
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-let backPack = {
-
-}
+let backPack = {};
 
 let item = "firstPocket";
+
 backPack[item] = "chapstick";
-backPack.color = "Brown";
+backPack.color = "Purple";
 
 /*
   After you do the above, alert your entire backPack object.

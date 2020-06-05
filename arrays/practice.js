@@ -22,8 +22,6 @@ function first(arr) {
     return arr[0];
 }
 
-
-
 ////////// PROBLEM 2 //////////
 
 // Do not edit the code below.
@@ -35,10 +33,8 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
-
 function last(arr) {
-    return arr.[arr.length - 1];
+    return arr[arr.length - 1];
 }
 
 
@@ -72,8 +68,6 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the letters array, alerting every item in the array.
 */
 
-//Code Here
-
 function reversedLooper(letters) {
     for (let i = letters.length; i >= 0; i--) {
         alert(family[i]);
@@ -90,9 +84,6 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
   Write a function named evenFinder that is given nums as it's only argument.
   Return an array that contains the even numbers from the nums array.
 */
-
-//Code Here
-
 
 function evenFinder(nums) {
     let evenNums = [];
