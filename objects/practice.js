@@ -150,7 +150,7 @@ methodCollection.logHello();
 function makePerson(name, bd, ssn) {
   let person = {
     name: name,
-    birthday: birthday,
+    birthday: bd,
     ssn: ssn,
   }
   return person;
